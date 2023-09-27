@@ -1,0 +1,727 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Acme&family=Alata&family=Courgette&family=Fugaz+One&family=Iceland&family=Righteous&family=Roboto+Condensed&family=Wallpoet&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.namepag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(imageneshome/ciudad\ oscura.png);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.encabezado{
+    height: auto;
+    padding: 40px 0px;
+    gap: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.logo img{
+    
+    max-width: 250px;
+    max-height: 220px;
+    
+}
+
+.bt button{
+    background-color:transparent;
+    border-color:transparent;
+}
+.iconsl{
+    padding: 10px 10px;
+    border-radius: 20px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, black, #908989);  
+    
+}
+
+h2{
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+    font-family: 'Iceland', cursive;
+}
+
+
+
+#juegos{
+    background-color: #363636;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100px;
+}
+
+
+h3{
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-family: 'Iceland', cursive;
+} 
+
+
+h4{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-family: 'Iceland', cursive;
+}
+
+h5{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: 'Iceland', cursive;
+}
+
+.prt1,.prt2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding-top: 40px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-wrap: wrap;
+}
+
+.fila1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-wrap: wrap;
+}
+
+.nombre1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nombre1,.nombre2{
+    background: linear-gradient(#FC5B00,#803306); 
+    padding-right: 12px;
+    padding-left: 12px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.fila2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-wrap: wrap;
+}
+
+.game5{
+    text-align: center;
+}
+
+#promo{
+    background-color: #595959;
+    width: 100%;
+    height: 100%px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center; 
+}
+
+#end{
+    background-color: #232323;
+    width: 100%;
+    height: 100%px;
+}
+.part1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+h1{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-family: 'Iceland', cursive;
+}
+
+h6{
+    font-size: 25px;
+    color: #787878; 
+    font-family: 'Iceland', cursive
+}
+
+.linea{
+    border-top: 5px solid rgb(245, 23, 23);
+    height: 2px;
+    width: auto;
+    
+}
+
+.endin{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cop{
+    font-family: 'Alata', sans-serif;
+}
+
+.red{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.burger{
+    justify-content: center;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav{    
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    list-style-type: none;
+    text-decoration: none;
+    max-width: 1140px;
+    padding-right: 40px;
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 45px 10px 10px 45px;
+    background: linear-gradient(to right, black, #908989);  
+    justify-content: space-around;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap:wrap
+}
+
+.nav-list li a{
+    text-decoration: none;
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+    font-family: 'Iceland', cursive;
+    display: flex;
+    gap: 5px;
+    align-items: center; 
+    
+}
+
+.abrir,.cerrar{
+    display: none;
+}
+
+@media screen and (max-width: 1005px) {
+    .abrir,.cerrar{
+        display: block;
+    }
+
+    .nav{
+        opacity: 0;
+        visibility: hidden;
+    } 
+
+    .busqueda{
+        display: none;
+    }
+
+    .cerrar{
+        display: block;
+    }
+    
+    .nav{
+        position: absolute;
+        top: 0%;
+        background: #00000075;
+        width: 100%;
+        height: 663px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: flex-start;
+        flex-wrap:wrap;
+    }
+
+    .nav.visible{
+        opacity: 1;
+        visibility: visible;
+    } 
+    
+    .nav-list li a{
+        font-size: 55px;
+        color: rgb(255, 255, 255);
+        font-family: 'Iceland', cursive;
+
+        
+    }
+    .nav-list{
+        background: none;
+        width: 100%;
+        background: linear-gradient(#FC5B00,#662804); 
+        align-items: center;
+        border-radius: 0px;
+        padding:0px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        justify-content: center;
+        
+    }
+    .abrir{
+        background-color: transparent;
+    }
+
+    .cerrar{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #595959;
+        width: 100%;
+        font-size: 70px;
+        color: rgb(255, 255, 255);
+        font-family: 'Iceland', cursive;  
+    }
+
+}
+
+.botones2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background: linear-gradient(#FC5B00,#662804); 
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.botones2 button{
+    background-color: transparent;
+}
+
+/*index contacto*/
+
+#contacto{
+    background-color: #363636;
+    display: flex;
+    justify-content: center;
+    padding-left: 40px ;
+    padding-right: 40px;
+    
+}
+
+.sopo{
+    width: 1000px;
+    
+}
+
+.contacto-cate{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: #FC5B00  solid 4px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.contacto-cated{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.bus{
+    display: flex;
+    align-items: center;
+}
+
+.h7{
+    font-size: 50px;
+    color:#ffffff;
+    font-family: 'Iceland', cursive;
+    border-bottom: #FC5B00  solid 4px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.h8{
+    font-size: 40px;
+    color:#FC5B00;
+    font-family: 'Iceland', cursive;
+    -webkit-text-stroke: #FC5B00 1px;
+}
+
+.h9{
+    font-size: 30px;
+    color:#ffffff;
+    font-family: 'Iceland', cursive;  
+}
+
+.enviti{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.enviti button{
+    padding-bottom: 5px;
+    width: 100%;
+    font-size: 40px;
+    font-family: 'Iceland', cursive;  
+    background-color: #4C4C4C;
+}
+
+.envitip {
+    color: #fffdfc;
+    text-decoration: none;
+}
+
+/*index nosotros*/
+.Nosotrosimgpc,.Nosotrosimg4k,.Nosotrosimgmb{
+    display: none;
+}
+
+
+/*--------mi pc--------*/
+@media screen and (max-width: 1545px){
+    .Nosotrosimgpc{
+        display: block;
+    }
+    
+    .Nosotrosimgmb,.Nosotrosimg4k{
+        display: none;
+    }
+    .Nosotrosimgpc img{
+        max-width: 100%;
+    }
+    .Nosotrosimgpc{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        background-color: #232323;
+    }
+
+    .c1pc{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: flex;
+        flex-direction: column;
+    }
+    .p1pc.p2pc,.p3pc{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-weight: bold;
+    
+    }
+    
+    .pp1pc{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+    .p1pc{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        font-size: 60px;
+        font-weight: bold;
+        font-family: 'Alata', sans-serif;
+        color: #FC5B00;
+        text-shadow: 2px 5px 2px rgb(254, 255, 255),
+                     4px 5px 2px rgb(0, 0, 0);
+    }
+    
+    .pp3pc{
+        padding-top: 20px;
+        font-weight: bold;
+        font-family: 'Iceland', cursive;
+        text-shadow: 1px 1px 2px rgb(80, 229, 255),
+                     -1px -1px 2px rgb(80, 229, 255);
+    }
+    
+    .p2pc{
+        text-align: center;
+        color: #FC5B00;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Alata', sans-serif;
+        text-shadow: 2px 2px 1px rgb(254, 255, 255),
+        3px 3px 1px rgb(0, 0, 0);
+    }
+    .p3pc{
+        font-size: 25px ;
+    }
+    
+}
+
+/*--------pc 4k--------*/
+
+@media screen and (min-width: 1546px){
+    .Nosotrosimg4k{
+        display: block;
+    }
+    
+    .Nosotrosimgmb,.Nosotrosimgpc{
+        display: none;
+    }
+    .Nosotrosimg4k img{
+        max-width: 100%;
+    }
+    .Nosotrosimg4k{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        background-color: #232323;
+    }
+    
+    .c14k{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: flex;
+        flex-direction: column;
+    }
+    .p14k.p24k,.p34k{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-weight: bold;
+    
+    }
+    
+    .pp14k{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .p14k{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        font-size: 150px;
+        font-weight: bold;
+        font-family: 'Alata', sans-serif;
+        color: #FC5B00; 
+        text-shadow: 5px 5px 2px rgb(254, 255, 255),
+                     7px 7px 2px rgb(0, 0, 0);
+    }
+    
+    .pp34k{
+        padding-top: 20px;
+        font-weight: bold;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Iceland', cursive;
+        text-shadow: 3px 3px 3px rgb(80, 229, 255),
+                     -3px -3px 3px rgb(80, 229, 255);
+        
+    }
+    
+    .p24k{
+        text-align: center;
+        color: #FC5B00;
+        font-size: 100px;
+        font-weight: bold;
+        font-family: 'Alata', sans-serif;
+        text-shadow: 5px 5px 2px rgb(254, 255, 255),
+                     7px 7px 2px rgb(0, 0, 0);
+    }
+    .p34k{
+        font-size: 60px ;
+    }
+}
+
+/*--------mobile--------*/
+
+@media screen and (max-width: 425px){
+    
+    .Nosotrosimgmb{
+        display: block;
+    }
+    
+    .Nosotrosimgpc,.Nosotrosimg4k{
+        display: none;
+    }
+    .Nosotrosimgmb img{
+        max-width: 100%;
+    }
+    .Nosotrosimgmb{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        background-color: #232323;
+    }
+    
+    .c1mb{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: flex;
+        flex-direction: column;
+    }
+    .p1mb.p2mb,.p3mb{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-weight: bold;
+    
+    }
+    
+    .pp1mb{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .p1mb{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        font-size: 50px;
+        font-weight: bold;
+        font-family: 'Alata', sans-serif;
+        color: #FC5B00;
+        text-shadow: 2px 5px 2px rgb(254, 255, 255),
+                     4px 5px 2px rgb(0, 0, 0);
+    }
+    
+    .pp3mb{
+        padding-top: 10px;
+        font-weight: bold;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Iceland', cursive;
+        text-shadow: 1px 1px 2px rgb(80, 229, 255),
+                     -1px -1px 2px rgb(80, 229, 255);
+        
+    }
+    
+    .p2mb{
+        text-align: center;
+        color: #FC5B00;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Alata', sans-serif;
+        text-shadow: 3px 3px 2px rgb(254, 255, 255),
+                     4px 4px 2px rgb(0, 0, 0);
+    }
+    .p3mb{
+        font-size: 25px ;
+    }
+}
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Iceland', cursive;
+}
+/*-------F O R M U L A R I O---------*/
+
+.portada{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    background: radial-gradient(#9e9e9e, #232323) ;
+}
+
+.regis {
+    display: grid;
+    grid-template-rows: min-content min-content min-content min-content min-content min-content min-content min-content;
+    row-gap: 20px;
+    justify-content: center;
+    padding: 40px 20px 40px 20px;
+    background: linear-gradient(#cc4b00, #FC5B00); 
+    margin: 50px 20px 50px 20px;
+    border-radius: 30px;
+}
+
+.l1,.l2{
+    text-align: center;
+    justify-content: center;
+}
+
+.pfor{ 
+    font-size: 70px;
+    font-family: 'Iceland', cursive;
+    color: white;
+}
+.forp{
+    font-size: 40px;
+    font-family: 'Iceland', cursive;
+    color: white
+}
+.cont{
+    width: 100%;
+    font-size: 30px;
+    padding: 10px;
+}
+.fcont{
+    font-size: 30px;
+    font-family: 'Iceland', cursive;
+    color: rgb(0, 0, 0);
+}
+.contimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.boton{
+    background-color: #787878;
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'Iceland', cursive;
+    font-weight:900;
+    letter-spacing: 10px;
+}
