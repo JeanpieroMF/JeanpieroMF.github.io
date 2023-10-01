@@ -69,7 +69,12 @@ h2{
     width: 100%;
     height: 100%;
     padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 
 
 h3{
@@ -91,20 +96,36 @@ h5{
     font-family: 'Iceland', cursive;
 }
 
-.prt1,.prt2{
+.prt1{
     display: flex;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center; 
+}
+.prt2{
+    display: flex;
     padding-top: 40px;
     padding-bottom: 25px;
     padding-left: 10px;
     padding-right: 10px;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+.izq{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.dere{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .fila1{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center; 
     gap: 35px;
     padding-left: 10px;
@@ -126,7 +147,7 @@ h5{
 }
 .fila2{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center; 
     gap: 35px;
     padding-left: 10px;
@@ -150,14 +171,27 @@ h5{
 #end{
     background-color: #232323;
     width: 100%;
-    height: 100%px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
 }
+
+.end{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px ;
+    gap: 30px;
+    align-items: center;
+    
+}
+
 .part1{
     display: flex;
-    justify-content: space-around;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    justify-content: space-between;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 h1{
@@ -186,6 +220,15 @@ h6{
     flex-wrap: wrap;
 }
 
+#endind{
+    background-color: #232323;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px ;
+}
 .cop{
     font-family: 'Alata', sans-serif;
 }
@@ -196,6 +239,7 @@ h6{
     padding-bottom: 20px;
     gap: 20px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .burger{
@@ -405,7 +449,7 @@ h6{
     color: #fffdfc;
     text-decoration: none;
 }
-
+.botones2
 /*index nosotros*/
 .Nosotrosimgpc,.Nosotrosimg4k,.Nosotrosimgmb{
     display: none;
@@ -725,3 +769,96 @@ h6{
     font-weight:900;
     letter-spacing: 10px;
 }
+
+.botonesfor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background: linear-gradient(#FC5B00,#662804); 
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.botonesfor button{
+    background-color: transparent;
+}
+
+/*-------C A R R S E L_M O B I L E---------*/
+
+.angame{
+    background-color: #363636;
+}
+
+.ads1{
+    position: absolute;
+    left: 0px;
+}
+
+.ads1 img{
+    width: 200px;
+    height: 720px;
+}
+
+.sinads1{
+    position: absolute;
+     
+}
+
+.sinads1 img{
+    width: 187px;
+    height: 720px;
+}
+
+.ads1.hiden{
+    display: none;
+}
+
+.cerrar-ads1{
+    position: absolute;
+    top: 0px;
+    left: 158px;
+    z-index: 2;
+    cursor: pointer;
+    & img{
+        width: 30px;   
+        height: 30px;
+    }
+}
+.cerrar-sinads1{
+    position: absolute;
+    top: 0px;
+    left: 158px;
+    z-index: 1;
+    cursor: pointer;
+    & img{
+        width: 30px;   
+        height: 30px;
+    }
+}
+
+.angame{
+    display: flex;
+}
+
+
+#adsC{
+    display: flex;
+    justify-content: center;
+    background-color: #363636;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.adsC{
+
+}
+.adsc img{
+
+}
+
+#adsN{
+    display: flex;
+    justify-content: center;
+    background-color: #232323;
+}
+
