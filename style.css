@@ -849,11 +849,18 @@ h6{
     background-color: #363636;
     padding-left: 40px;
     padding-right: 40px;
+    
+}
+
+.adsC img{
+    width: 100%;
+    min-height: 70px;
 }
 
 #adsN{
     display: flex;
     justify-content: center;
     background-color: #232323;
+
 }
 
