@@ -72,9 +72,8 @@ h2{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
-
 
 
 h3{
@@ -791,56 +790,36 @@ h6{
 }
 
 .ads1{
-    position: absolute;
-    display: block;
+    padding-left: 20px;
 }
 
-.ads1 img{
-    width: 200px;
-    height: 720px;
+.ad-img img{
+    width: 100%;
+    min-width: 20px;
 }
-
-.sinads1{
-    position: absolute;
-    display: block;
-     
-}
-
-.sinads1 img{
-    width: 187px;
-    height: 720px;
-}
-
 .ads1.hiden{
     display: none;
+    padding: 50px;
 }
 
+.poner-ads1{
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    & img{
+        width: 100%;
+    } 
+}
 .cerrar-ads1{
     position: absolute;
-    top: 0px;
-    left: 158px;
     z-index: 1;
-    cursor: pointer;
-    & img{
-        width: 30px;   
-        height: 30px;
-    }
-}
-.cerrar-sinads1{
-    position: absolute;
-    top: 0px;
-    left: 158px;
-    z-index: 1;
-    cursor: pointer;
-    & img{
-        width: 30px;   
-        height: 30px;
-    }
+    cursor: pointer; 
 }
 
 .angame{
     display: flex;
 }
+
 
 
 #adsC{
@@ -852,9 +831,8 @@ h6{
     
 }
 
-.adsC img{
-    width: 100%;
-    min-height: 70px;
+.adsC img, .adsN img{
+    min-height: 100px;
 }
 
 #adsN{
@@ -863,4 +841,12 @@ h6{
     background-color: #232323;
 
 }
+
+#adsS{
+    display: flex;
+    justify-content: center;
+    background-color: #363636;
+
+}
+
 
