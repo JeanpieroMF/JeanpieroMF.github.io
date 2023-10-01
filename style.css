@@ -792,7 +792,7 @@ h6{
 
 .ads1{
     position: absolute;
-    left: 0px;
+    display: block;
 }
 
 .ads1 img{
@@ -802,6 +802,7 @@ h6{
 
 .sinads1{
     position: absolute;
+    display: block;
      
 }
 
@@ -818,7 +819,7 @@ h6{
     position: absolute;
     top: 0px;
     left: 158px;
-    z-index: 2;
+    z-index: 1;
     cursor: pointer;
     & img{
         width: 30px;   
@@ -848,12 +849,6 @@ h6{
     background-color: #363636;
     padding-left: 40px;
     padding-right: 40px;
-}
-.adsC{
-
-}
-.adsc img{
-
 }
 
 #adsN{
