@@ -794,8 +794,9 @@ h6{
 }
 
 .ad-img img{
-    width: 100%;
+    width: 10%;
     min-width: 20px;
+    position: absolute;
 }
 .ads1.hiden{
     display: none;
